@@ -2,7 +2,7 @@ import styled from "styled-components";
 import logo from "../assets/img/logo.svg";
 import logout from "../assets/img/logout icon.svg";
 
-export const CommonInput = () => {
+export const IdInput = () => {
   return (
     <>
       <Input />
