@@ -5,7 +5,15 @@ import logout from "../assets/img/logout icon.svg";
 export const IdInput = () => {
   return (
     <>
-      <Input />
+      <IdInputbox />
+    </>
+  );
+};
+
+export const PasswordInput = () => {
+  return (
+    <>
+      <PasswordInputbox />
     </>
   );
 };
@@ -21,18 +29,22 @@ export const Header = () => {
   );
 };
 
-const Input = styled.input`
-  align-items: center;
-  background: rgb(245, 245, 245);
-  box-sizing: border-box;
-  border: none;
-  height: 44px;
-  margin: 4px 0px 4px 0px;
-  padding: 0px 12px 0px 12px;
-  border-radius: 6px;
+const IdInputbox = styled.input`
+  width: 540px;
+  height: 90px;
+  border-radius: 25px;
+  border: 2px solid #717171;
+`;
+
+const PasswordInputbox = styled.input`
+  width: 540px;
+  height: 90px;
+  border-radius: 25px;
+  border: 2px solid #717171;
 `;
 
 const WrapHeader = styled.div``;
+
 const Logo = styled.img`
   margin: 36px 0px 42px 363px;
 `;
